@@ -56,20 +56,21 @@ quick_col1, quick_col2, quick_col3, quick_col4 = st.columns(4)
 
 with quick_col1:
     if st.button("💬 Chat with AI", use_container_width=True):
-        st.switch_page("pages/1_🏥_Chatbot.py")
+        st.switch_page("pages/Chatbot.py")
 
 with quick_col2:
     if st.button("💪 Health Score", use_container_width=True):
-        st.switch_page("pages/2_💪_Health_Score.py")
+        st.switch_page("pages/Health_Score.py")
 
 with quick_col3:
     if st.button("🔍 Check Symptoms", use_container_width=True):
-        st.switch_page("pages/4_🔍_Symptom_Checker.py")
+        st.switch_page("pages/Symptom_Checker.py")
 
 with quick_col4:
     if st.button("🎯 Get Recommendations", use_container_width=True):
-        st.switch_page("pages/3_🎯_Recommendations.py")
+        st.switch_page("pages/Recommendations.py")
 
 # Footer
 st.markdown("---")
+
 st.caption("Built with ❤️ using Streamlit | Your AI Health Assistant")
